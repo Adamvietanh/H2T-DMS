@@ -46,10 +46,21 @@ III. Cách thức hoạt động của Parse trong ứng dụng
 -------------------------------------------------
 Nhóm phát triển coi việc sử dụng Parse như là 1 cơ sở dữ liệu trực tuyến nên mọi hoạt động truy xuất, gửi dữ liệu đều thông qua Parse để thực hiện. Bên cạnh đó, Parse cũng cung cấp bộ Android SDK hỗ trợ cho việc phát triển ứng dụng trên android nhanh hơn cho nhóm.
 
-Tham khảo thêm cách sử dụng Parse trong android tại đây: https://parse.com/docs/android_guide
+Để kết nói ứng dụng với Parse Core, Parse sẽ cung cấp cho người dùng các API Key để xác thực, do đó nên nếu các ứng dụng muốn sử dụng chung 1 cơ sở dữ liệu thì sẽ dùng chung 1 API Key và ngược lại nếu muốn các cơ sở dữ liệu khác nhau để cung cấp cho từng khách hàng thì chỉ cần dùng các API key khác nhau.
+
+Coi hướng dẫn cách cài đặt Parse tại đây: [hướng dẫn cài đặt](https://github.com/BuiThienDuy/H2T-DMS/blob/master/docs/H2T_DMS_Huong_dan_cai_dat.md)
+
+Tham khảo thêm cách sử dụng Parse trong android tại đây(dành cho developer): https://parse.com/docs/android_guide
 
  
 IV. Câu hỏi thường gặp
 ----------------------
+Câu hỏi 1: cách thức truyền và tải dữ liệu giữa Parse và các máy con như thế nào?
+	
+Trả lời: Parse sử dụng Parse REST API để gửi dữ liệu xuống máy con với gói dữ liệu JSON qua giao thức HTTPS. Dưới sử hỗ trợ của Parse Android SDK, gói dữ liệu JSON sẽ được chuyển qua dạng ParseObject để sử dụng dễ dàng trong việc phát triển hơn.
+
+Câu hỏi 2: Parse sử dụng loại cơ sở dữ liệu nào cho android
+	
+Trả lời: Parse sử dụng [MongoDB](https://www.mongodb.org/) để làm cơ sở dữ liệu cho android thuộc kiểu cơ sở dữ liệu NoSQL.
 
 	
