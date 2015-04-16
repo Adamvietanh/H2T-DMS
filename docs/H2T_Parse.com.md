@@ -23,7 +23,7 @@ I. Các thành phần của [Parse](https://Parse.com/) hỗ trợ cho việc ph
  ![parse_plan](https://cloud.githubusercontent.com/assets/11812919/7176009/b3e20578-e444-11e4-8670-7cc46488ef29.png)
  1) Parse Core
  
- >	* Parse.com là phần mềm bên thứ 3 cho phép sử dụng miễn phí và có khả năng tăng thêm dung lượng và số lượng truy cập bằng các đóng phí.
+ >	* Parse là dịch vụ bên thứ 3 cho phép sử dụng miễn phí và có khả năng tăng thêm dung lượng và số lượng truy cập bằng các đóng phí.
  >	* Tuy số lượng truy cập được ghi trên trang chủ của Parse.com là số lượng truy cập/s nhưng thật ra Parse.com tính số lượng truy cập/phút.
  >	> Nên ở đây khi sử dụng miễn phí nên 30 lượt truy cập/s = 1.800 lượt truy cập/phút.Ví dụ khi có 1.000 lượt truy cập cùng lúc vào máy chủ thì Parse.com vẫn có thể xử lý được nhưng trong 1s đó mà có 2.000 lượt truy cập thì sẽ có 200 lượt truy cập sẽ bị từ chối do khi sử dụng hạn mức miễn phí thì Parse.com chỉ chấp nhận 1.800 truy cập/phút.
  >	* Mức phí tối thiểu thành cho Parse Core:
