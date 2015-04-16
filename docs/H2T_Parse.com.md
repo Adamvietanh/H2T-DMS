@@ -27,7 +27,12 @@ I. Các thành phần của [Parse](https://Parse.com/) hỗ trợ cho việc ph
  >	* Tuy số lượng truy cập được ghi trên trang chủ của Parse.com là số lượng truy cập/s nhưng thật ra Parse.com tính số lượng truy cập/phút.
  >	> Nên ở đây khi sử dụng miễn phí nên 30 lượt truy cập/s = 1.800 lượt truy cập/phút.Ví dụ khi có 1.000 lượt truy cập cùng lúc vào máy chủ thì Parse.com vẫn có thể xử lý được nhưng trong 1s đó mà có 2.000 lượt truy cập thì sẽ có 200 lượt truy cập sẽ bị từ chối do khi sử dụng hạn mức miễn phí thì Parse.com chỉ chấp nhận 1.800 truy cập/phút.
  >	* Mức phí tối thiểu thành cho Parse Core:
+ 
+ ![111](https://cloud.githubusercontent.com/assets/11812919/7176506/4276cd7e-e449-11e4-8c99-4b9e008192f1.png)
+
  >	* Mức phí tối đa cho Parse Core:
+ 
+ ![parse_core_max](https://cloud.githubusercontent.com/assets/11812919/7176594/d178f8bc-e449-11e4-97f8-a43a6f2af7d1.png)
  
  Nếu số lượng request mà vượt qua quá số lượng tối đa mà gói dịch vụ Parse có thể cung cấp thì khách hàng có thể trao đổi với nhân viên bên phía Parse để được tư vấn và giải quyết về vấn đề số lượng truy cập này.
  
@@ -37,7 +42,12 @@ I. Các thành phần của [Parse](https://Parse.com/) hỗ trợ cho việc ph
 >	* Cũng như Parse Core thì Parse Push cũng sử dụng miễn phí và có khả năng tăng thêm khả năng sử dụng bằng các đóng phí.
 >	* Ở hạn mức dùng miễn phí thì Parse Push có khả năng gửi thông báo từ máy chủ xuống các máy con với số lượng giới hạn là 1.000.000 máy con sử dụng ứng dụng truy cập tới Parse.com.
 >	* Mức phí tối thiểu cho Parse Push:
+
+![push__min_price](https://cloud.githubusercontent.com/assets/11812919/7176559/922960ca-e449-11e4-924f-59d4ed3407a1.png)
+
 >       * Mức phí tối đa cho Parse Push:
+
+![parse_push_max](https://cloud.githubusercontent.com/assets/11812919/7176595/d17ad466-e449-11e4-85f4-03ecb145cb7c.png)
 
  3) Parse Analytics
 	* Được sử dụng miễn phí hoàn toàn, tuy nhiên do chưa có nhu cầu sử dụng nên nhóm vẫn chưa thêm chức năng này vào sản phẩm.
